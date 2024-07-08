@@ -1,0 +1,11 @@
+/* components/Profile.module.css */
+
+.profileCircle {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.profileImage {
+    object-fit: cover;
+}

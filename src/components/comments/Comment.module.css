@@ -1,0 +1,44 @@
+.commentContainer {
+    border: 1px solid #ddd;
+    border-radius: 0.75rem; /* rounded-xl */
+    margin: 0.25rem 0; /* my-1 */
+    padding: 0.5rem; /* p-3 */
+  }
+  
+  .author {
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .commentTextarea {
+    width: 100%; /* w-full */
+    margin-top: 0.5rem; /* Add margin-top for spacing */
+    padding: 0.5rem; /* Add padding for better appearance */
+    border: none; /* Remove border */
+    outline: none; /* Remove default focus outline */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    border-radius: 0.375rem; /* Optional: Add border radius */
+  }
+  
+  .commentTextarea:disabled {
+    background-color: #f9f9f9; /* Ensure same background color for disabled state */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* flex-row-reverse */
+    margin-top: 0.5rem; /* Add margin-top for spacing */
+  }
+  
+  .commentButton {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem; /* rounded */
+    padding: 0.25rem 0.5rem; /* p-1 */
+    margin: 0.25rem; /* m-1 */
+    background-color: #f1f5f9; /* bg-slate-100 */
+    cursor: pointer;
+  }
+  
+  .commentButton:hover {
+    background-color: #e2e8f0; /* Slightly darker for hover effect */
+  }
+  
